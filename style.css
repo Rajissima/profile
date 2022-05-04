@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
+body {
+  font-family: sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+}
+#banner h1 {
+  background-color: rgb(201, 175, 198);
+  color: #af47a0;
+}
+h1, h2 {
+  color: black;
+  font-family: sans-serif;
+  font-size: 34px;
+}
+h2 {
+  font-size: 24px;
+}
+a:hover {
+  color: #11030f;
+}
+a {
+  text-decoration: none;
+}
+#banner, #description, #list, #about {
+  border: 1px solid #af47a0;
+  border-radius: 5px;
+  text-align: center;
+  border-width: 2px 0;
+  background-color: antiquewhite;
+  padding: 10px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  margin: auto; 
+  margin-top: 10px;
+  align-content: center;
+}
+
+.text-justify {
+  text-align: justify;
+}
+#image {
+  width: 160px;
+}
+.imag-circle {
+border-radius: 50%;
+}
+.btn-blue {
+  color: antiquewhite;
+  background-color: #af47a0;
+  text-shadow: #4e474d;
+  border-radius: 20px;
+  margin: 15px;
+  border: 10px;
+  padding: 10px;
+  }
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+  text-decoration: none;
+  color: #af47a0;
+}
+.container {
+  width: 1200px;
+}
+  @media (max-width: 960px) {
+    /* Pour un écran < 960px, cette classe CSS s'applique */
+    .container {
+      width: 700px;
+    }
+  }
+  
+  @media (max-width: 720px) {
+    /* Pour un écran < 720px, cette classe CSS s'applique */
+    .container {
+      width: 500px;
+    }
+  }
+  
+  @media (max-width: 540px) {
+    /* Pour un écran < 540px, cette classe CSS s'applique */
+    .container {
+      width: 300px;
+    }
+  }
